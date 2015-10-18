@@ -18,6 +18,8 @@
     <script type="text/javascript" src="https://code.angularjs.org/1.4.7/angular.min.js"></script>
     <script type="text/javascript" src="https://code.angularjs.org/1.4.7/angular-route.js"></script>
 
+    // you forgotten your script.js
+    <script type="text/javascript" src="script.js"></script>
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -47,9 +49,8 @@
         </nav>
       </div>
 
-      <div ng-controller="MainCtrl">
-        <div ng-view></div>
-      </div>
+      <div ng-view></div>
+      <!-- You don't need to write ng-controller because you defined in js -->
 
       <!-- Site footer -->
       <footer class="footer">
